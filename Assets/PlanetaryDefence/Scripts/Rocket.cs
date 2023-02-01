@@ -5,6 +5,7 @@ using UnityEngine;
 public class Rocket : MonoBehaviour 
 {
 	public float moveSpeed;
+	public float angularSpeed;
 	public float attackRate;
 	private float attackTimer;
 	public float bulletSpeed;
@@ -20,42 +21,17 @@ public class Rocket : MonoBehaviour
 
 	//Components
 	public Animator anim;
-	public Vector3 mousePositionWorld;
+	public GameObject mousePositionWorld;
 	public static Rocket r;
 
 	void Awake () { r = this; }
 
 	void Update ()
 	{
-		if(canMove)
+		if(canMove){
 			RotateRocket();
-
-
-		
-
-		 if(Input.GetKeyDown(KeyCode.A)){	  
-            
-            moveLeft();
-        }
-        if(Input.GetKeyDown(KeyCode.D)){	  
-            
-            moveRight();
-        }
-
-
-        if(Input.GetKeyDown(KeyCode.W)){	  
-            
-            moveUp();
-        }
-
-        if(Input.GetKeyDown(KeyCode.S)){	  
-            
-            moveDown();
-        }
-
-
-
-
+			movRocket();
+			}
 
 		if(!canHoldFire && Input.GetMouseButtonDown(0) && canMove)
 		{
@@ -80,7 +56,13 @@ public class Rocket : MonoBehaviour
 	//Rotates the rocket around the planet.
 	void RotateRocket ()
 	{
-		transform.eulerAngles += new Vector3(0, 0, (-moveSpeed * Input.GetAxis("Horizontal")) * Time.deltaTime);
+		transform.eulerAngles += new Vector3(0, 0, (-angularSpeed * Input.GetAxis("Horizontal")) * Time.deltaTime);
+		rocketSprite.localEulerAngles = new Vector3(0, 0, Input.GetAxis("Horizontal") * -30);
+	}
+
+	void movRocket ()
+	{
+		transform.position += new Vector3(moveSpeed * Input.GetAxis("Horizontal") * Time.deltaTime,   moveSpeed * Input.GetAxis("Vertical") * Time.deltaTime, 0);
 		rocketSprite.localEulerAngles = new Vector3(0, 0, Input.GetAxis("Horizontal") * -30);
 	}
 
@@ -89,10 +71,11 @@ public class Rocket : MonoBehaviour
 	{
 		GameObject bullet1 = Instantiate(bulletPrefab, rocketSprite1.transform.position, transform.rotation);
 
-		Vector2 dir1 = rocketSprite1.transform.position.normalized * (bulletSpeed * Random.Range(1.0f, 1.1f));
+		Vector2 dir1 = ((mousePositionWorld.transform.position- rocketSprite1.transform.position).normalized)* (bulletSpeed * Random.Range(1.0f, 1.1f));
+		//rocketSprite1.transform.position.normalized * (bulletSpeed * Random.Range(1.0f, 1.1f));
 		Vector3 offset1 = bullet1.transform.right * Random.Range(-bulletSpread, bulletSpread);
-		dir1.x += offset1.x;
-		dir1.y += offset1.y;
+		//dir1.x += offset1.x;
+		//dir1.y += offset1.y;
 
 
 
@@ -108,10 +91,11 @@ public class Rocket : MonoBehaviour
 				{
 					bullet1 = Instantiate(bulletPrefab, rocketSprite1.transform.position, rocketSprite1.rotation);
 
-					dir1 = rocketSprite1.transform.position.normalized * (bulletSpeed * Random.Range(1.0f, 1.1f));
+					dir1 = ((mousePositionWorld.transform.position- rocketSprite1.transform.position).normalized) * (bulletSpeed * Random.Range(1.0f, 1.1f));
+					//rocketSprite1.transform.position.normalized * (bulletSpeed * Random.Range(1.0f, 1.1f));
 					offset1 = bullet1.transform.right * (x * 5 + Random.Range(-bulletSpread, bulletSpread));
-					dir1.x += offset1.x;
-					dir1.y += offset1.y;
+					//dir1.x += offset1.x;
+					//dir1.y += offset1.y;
 
 					bullet1.GetComponent<Rigidbody2D>().velocity = dir1;
 				}
@@ -119,12 +103,13 @@ public class Rocket : MonoBehaviour
 		}
 
 
-				GameObject bullet2 = Instantiate(bulletPrefab, rocketSprite2.transform.position, transform.rotation);
+				GameObject bullet2 = Instantiate(bulletPrefab, rocketSprite2.transform.position, new Quaternion(0,0,0,0));
 
-		Vector2 dir2 = rocketSprite2.transform.position.normalized * (bulletSpeed * Random.Range(1.0f, 1.1f));
-		Vector3 offset2 = bullet2.transform.right * Random.Range(-bulletSpread, bulletSpread);
-		dir2.x += offset2.x;
-		dir2.y += offset2.y;
+		Vector2 dir2 = ((mousePositionWorld.transform.position - rocketSprite2.transform.position).normalized) * (bulletSpeed * Random.Range(1.0f, 1.1f));
+		//rocketSprite2.transform.position.normalized * (bulletSpeed * Random.Range(1.0f, 1.1f));
+		Vector3 offset2  = bullet2.transform.right * Random.Range(-bulletSpread, bulletSpread);
+		//dir2.x += offset2.x;
+		//dir2.y += offset2.y;
 
 		bullet2.GetComponent<Rigidbody2D>().velocity = dir2;
 
@@ -136,23 +121,32 @@ public class Rocket : MonoBehaviour
 				{
 					bullet2 = Instantiate(bulletPrefab, rocketSprite2.transform.position, rocketSprite2.rotation);
 
-					//dir2 = rocketSprite2.transform.position.normalized * (bulletSpeed * Random.Range(1.0f, 1.1f));
-					offset2 = (mousePosition - rocketSprite2.transform.position);
-					//bullet2.transform.right * (x * 5 + Random.Range(-bulletSpread, bulletSpread));
+					dir2 =  (mousePositionWorld.transform.position.normalized - rocketSprite2.transform.position.normalized)* (bulletSpeed * Random.Range(1.0f, 1.1f));
+					//rocketSprite2.transform.position.normalized * (bulletSpeed * Random.Range(1.0f, 1.1f));
+					offset2 = bullet2.transform.right * (x * 5 + Random.Range(-bulletSpread, bulletSpread));
 					//dir2.x += offset2.x;
 					//dir2.y += offset2.y;
 
+
+					bullet2.GetComponent<Rigidbody2D>().velocity = dir2;
+
+				}
 				
 
-					
-					dir2.x = mousePositionWorld.x;
-					dir2.y = mousePositionWorld.y;
-					bullet2.GetComponent<Rigidbody2D>().velocity = dir2;
-					Debug.Log(dir2);
-				}
-			}
-		}
 
+
+			}
+
+
+
+
+		}
+		print("mouse");
+		Debug.Log(mousePositionWorld.transform);
+		print("pao");
+		Debug.Log(rocketSprite2.transform.position);
+		print("DIR2");
+		Debug.Log(dir2);
 		AudioManager.am.PlayShoot();
 
 
