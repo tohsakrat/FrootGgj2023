@@ -15,7 +15,7 @@ C:/Users/Girafe/unityproject/GGJ2023/FrootGgj2023
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-2279
+9721
 Successfully changed project path to: C:/Users/Girafe/unityproject/GGJ2023/FrootGgj2023
 C:/Users/Girafe/unityproject/GGJ2023/FrootGgj2023
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -48,7 +48,7 @@ C:/Users/Girafe/unityproject/GGJ2023/FrootGgj2023
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 99.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1c1 (64682593795a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.4f1c1/Editor/Data/Resources/UnitySubsystems
@@ -64,89 +64,602 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.4f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.4f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.4f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.4f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.023468 seconds.
+Registered in 0.020620 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.852 seconds
+- Completed reload, in  0.794 seconds
 Domain Reload Profiling:
-	ReloadAssembly (853ms)
-		BeginReloadAssembly (188ms)
+	ReloadAssembly (795ms)
+		BeginReloadAssembly (158ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (461ms)
-			LoadAssemblies (169ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (243ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (241ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
+				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.034145 seconds.
+Registered in 0.029884 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.616 seconds
+- Completed reload, in  1.295 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1616ms)
-		BeginReloadAssembly (222ms)
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1141ms)
-			LoadAssemblies (240ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (884ms)
+			LoadAssemblies (181ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
+			SetupTypeCache (213ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (478ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (417ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (158ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (59ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (47ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3327 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 25 unused Assets / (128.0 KB). Loaded Objects now: 3801.
 Memory consumption went from 132.9 MB to 132.8 MB.
-Total: 3.572800 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.090200 ms MarkObjects: 2.990500 ms  DeleteObjects: 0.137300 ms)
+Total: 3.188400 ms (FindLiveObjects: 0.375500 ms CreateObjectMapping: 0.097700 ms MarkObjects: 2.612700 ms  DeleteObjects: 0.100300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034014 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1635ms)
+		BeginReloadAssembly (292ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1123ms)
+			LoadAssemblies (276ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (503ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (73ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (95.3 KB). Loaded Objects now: 3804.
+Memory consumption went from 131.4 MB to 131.3 MB.
+Total: 3.217600 ms (FindLiveObjects: 0.435600 ms CreateObjectMapping: 0.100300 ms MarkObjects: 2.634100 ms  DeleteObjects: 0.045800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034070 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1662ms)
+		BeginReloadAssembly (339ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1089ms)
+			LoadAssemblies (335ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (68ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (95.3 KB). Loaded Objects now: 3807.
+Memory consumption went from 131.4 MB to 131.3 MB.
+Total: 3.679200 ms (FindLiveObjects: 0.456300 ms CreateObjectMapping: 0.109400 ms MarkObjects: 3.044400 ms  DeleteObjects: 0.067500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034012 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1461ms)
+		BeginReloadAssembly (361ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (898ms)
+			LoadAssemblies (257ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (54ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (95.4 KB). Loaded Objects now: 3810.
+Memory consumption went from 131.4 MB to 131.3 MB.
+Total: 3.519200 ms (FindLiveObjects: 0.324500 ms CreateObjectMapping: 0.095100 ms MarkObjects: 3.048000 ms  DeleteObjects: 0.050500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032871 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (247ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (408ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (55ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (95.3 KB). Loaded Objects now: 3813.
+Memory consumption went from 131.4 MB to 131.3 MB.
+Total: 4.158800 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.088800 ms MarkObjects: 3.698800 ms  DeleteObjects: 0.066700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033864 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1377ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (413ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (60ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (95.3 KB). Loaded Objects now: 3816.
+Memory consumption went from 131.4 MB to 131.3 MB.
+Total: 2.790400 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.075700 ms MarkObjects: 2.369100 ms  DeleteObjects: 0.032800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032248 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.562 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1562ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1029ms)
+			LoadAssemblies (309ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (56ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (95.3 KB). Loaded Objects now: 3819.
+Memory consumption went from 131.4 MB to 131.3 MB.
+Total: 3.364900 ms (FindLiveObjects: 0.330100 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.901500 ms  DeleteObjects: 0.056000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034717 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.396 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1396ms)
+		BeginReloadAssembly (260ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (926ms)
+			LoadAssemblies (227ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (65ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (95.3 KB). Loaded Objects now: 3822.
+Memory consumption went from 131.4 MB to 131.3 MB.
+Total: 3.124400 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.645200 ms  DeleteObjects: 0.044200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034113 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1635ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1125ms)
+			LoadAssemblies (303ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (500ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (71ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (95.3 KB). Loaded Objects now: 3825.
+Memory consumption went from 131.4 MB to 131.3 MB.
+Total: 3.027300 ms (FindLiveObjects: 0.304900 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.604000 ms  DeleteObjects: 0.034700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033114 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Girafe\unityproject\GGJ2023\FrootGgj2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1911ms)
+		BeginReloadAssembly (469ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (1204ms)
+			LoadAssemblies (330ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (66ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (95.3 KB). Loaded Objects now: 3828.
+Memory consumption went from 131.4 MB to 131.3 MB.
+Total: 3.762500 ms (FindLiveObjects: 0.368500 ms CreateObjectMapping: 0.078800 ms MarkObjects: 3.256700 ms  DeleteObjects: 0.057200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,58 +674,641 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17281.776705 seconds.
-  path: Assets/PlanetaryDefence/UI/d about.png
-  artifactKey: Guid(d37a799c990d28641966cb3bb796fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlanetaryDefence/UI/d about.png using Guid(d37a799c990d28641966cb3bb796fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3418b2f304ff61033cab14c2e5576d1') in 0.178669 seconds 
+  Time since last request: 23825.052674 seconds.
+  path: Assets/PlanetaryDefence/UniGif.cs
+  artifactKey: Guid(343b0f044f6aa894682ce2633efa5d11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/UniGif.cs using Guid(343b0f044f6aa894682ce2633efa5d11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91c7578ce3b9b100d3d7a2a39ee10885') in 0.332139 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PlanetaryDefence/UI/w setting.png
-  artifactKey: Guid(85fdba223af5a0a46bd1913f96bcf053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlanetaryDefence/UI/w setting.png using Guid(85fdba223af5a0a46bd1913f96bcf053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae108b2a89fda6c532533f38619521b') in 0.021187 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/PlanetaryDefence/UniGifConst.cs
+  artifactKey: Guid(fbce26266dc3650488295783e74aeb33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/UniGifConst.cs using Guid(fbce26266dc3650488295783e74aeb33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aec69d3d92c2feb250fe70595bd7a0d3') in 0.014696 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/PlanetaryDefence/UI/ssae.png
-  artifactKey: Guid(eefec9a583919a441ab2800ea33a068e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlanetaryDefence/UI/ssae.png using Guid(eefec9a583919a441ab2800ea33a068e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d20e543a59b627da22b5486170013c6') in 0.023571 seconds 
+  Time since last request: 0.000056 seconds.
+  path: Assets/StreamingAssets/pkq.gif
+  artifactKey: Guid(c762f96a8d826c1429ee89daf9dd840c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets/pkq.gif using Guid(c762f96a8d826c1429ee89daf9dd840c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a97555ecb8e0d032ea87125288faa7e7') in 0.033478 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PlanetaryDefence/UI/w exit.png
-  artifactKey: Guid(a03fbe69bcb84b74aa380a144b69ce82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlanetaryDefence/UI/w exit.png using Guid(a03fbe69bcb84b74aa380a144b69ce82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98350d69580e9d53a17c7c76b444a7db') in 0.020960 seconds 
+  Time since last request: 0.351665 seconds.
+  path: Assets/PlanetaryDefence/Audio/ButtonClick.wav
+  artifactKey: Guid(f2df89e233b9da046a2e2f939b6c2c14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Audio/ButtonClick.wav using Guid(f2df89e233b9da046a2e2f939b6c2c14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b70049cc8fca8343ab6d7e1f214c88b6') in 0.217525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlanetaryDefence/UI/y exit.png
+  artifactKey: Guid(d0cb9727ece2dce45b4529dc56526adb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/UI/y exit.png using Guid(d0cb9727ece2dce45b4529dc56526adb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b27dd16016017fc825f32b9ea274cb1') in 0.063101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/PlanetaryDefence/Sprites/Enemy2.png
+  artifactKey: Guid(115e744ec02a5c3429f137a5abd27a20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Sprites/Enemy2.png using Guid(115e744ec02a5c3429f137a5abd27a20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3a66cc7f1de565e3e40a84ba4726ce8') in 0.036707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PlanetaryDefence/Sprites/Rocket.png
+  artifactKey: Guid(1312f7aac80524943b7bb277a774dcc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Sprites/Rocket.png using Guid(1312f7aac80524943b7bb277a774dcc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fe59b0db9989579e083df4bd6fa9aa3') in 0.030311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/Common/ImageEffectHelper.cs
+  artifactKey: Guid(ab6a3f50deeee984c88794eeeb901226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/Common/ImageEffectHelper.cs using Guid(ab6a3f50deeee984c88794eeeb901226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a0afae076caafaec5d4c232739fe06d') in 0.012894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlanetaryDefence/Scripts/UI.cs
+  artifactKey: Guid(1e25cbfa94c5c2e448905c622cbcdc70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Scripts/UI.cs using Guid(1e25cbfa94c5c2e448905c622cbcdc70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fff1583e4e7d0cc47f66596f3d500f31') in 0.011977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PlanetaryDefence/Prefabs/ParticleEffects/BulletHitParticle.prefab
+  artifactKey: Guid(a967b8c0d425dbf4db298df7943a4533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Prefabs/ParticleEffects/BulletHitParticle.prefab using Guid(a967b8c0d425dbf4db298df7943a4533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce39e2b3e148920e9c64503cf3d9fa67') in 0.111117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlanetaryDefence/Scripts/mouseDetection.cs
+  artifactKey: Guid(f9fddd1b537911f4d89fb5086ae654dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Scripts/mouseDetection.cs using Guid(f9fddd1b537911f4d89fb5086ae654dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64c97d5f182cc44f8396987e81c4504d') in 0.012142 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/PlanetaryDefence/UI/d setting.png
-  artifactKey: Guid(7553f91fc5fae7d45a7f44a5e9758d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlanetaryDefence/UI/d setting.png using Guid(7553f91fc5fae7d45a7f44a5e9758d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3fd17c96538583c5a747764e944486') in 0.021549 seconds 
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/TonemappingColorGrading/TonemappingColorGrading.cs
+  artifactKey: Guid(58a7625302996c94ba07a8ca3351f668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/TonemappingColorGrading/TonemappingColorGrading.cs using Guid(58a7625302996c94ba07a8ca3351f668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '257714b624334d9b4d7805ad2f4c3568') in 0.013290 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PlanetaryDefence/UI/FROOT title(black line).png
-  artifactKey: Guid(dfbe0e9c5981fd344b2351be84f92d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlanetaryDefence/UI/FROOT title(black line).png using Guid(dfbe0e9c5981fd344b2351be84f92d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723bc4040ce22bf301e1814c2ee71101') in 0.026030 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/PlanetaryDefence/UI/seedInitial.gif
+  artifactKey: Guid(e7d0fd2f296aa424ebf1b38d24848910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/UI/seedInitial.gif using Guid(e7d0fd2f296aa424ebf1b38d24848910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02bcc4baaeb2f5296d13b3b6ca2e9b76') in 0.029657 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PlanetaryDefence/UI/y exit.png
-  artifactKey: Guid(d0cb9727ece2dce45b4529dc56526adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlanetaryDefence/UI/y exit.png using Guid(d0cb9727ece2dce45b4529dc56526adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c1c23a9aa1ce2341e0555642e17afb') in 0.026524 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetaryDefence/Sprites/PlanetShieldPickup.png
+  artifactKey: Guid(be67c7364a95abe4c9ee8cf9809f2af3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Sprites/PlanetShieldPickup.png using Guid(be67c7364a95abe4c9ee8cf9809f2af3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caa6e68f996f08c3a671f9c14a5030ea') in 0.031806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PlanetaryDefence/Sprites/seedInitial.gif
+  artifactKey: Guid(a53a0596b7b0551429a01f9c3af253a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Sprites/seedInitial.gif using Guid(a53a0596b7b0551429a01f9c3af253a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '127217d6334d68973087ec6406b6e2d0') in 0.031591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlanetaryDefence/Sprites/微信图片_20230131174035.png
+  artifactKey: Guid(0e7bf696ca1199b4586939afa261b4fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Sprites/微信图片_20230131174035.png using Guid(0e7bf696ca1199b4586939afa261b4fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28d8814110b2807b905262547709ded5') in 0.033327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PlanetaryDefence/Scripts/ShipShield.cs
+  artifactKey: Guid(1ac01602545dc3e498e21b9634e844dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Scripts/ShipShield.cs using Guid(1ac01602545dc3e498e21b9634e844dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98b57f3abd222783c1637466585a7928') in 0.019460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetaryDefence/Font/SairaSemiCondensed-Regular.ttf
+  artifactKey: Guid(e5e2e57a1fb97e847a45cf620cb9ed82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Font/SairaSemiCondensed-Regular.ttf using Guid(e5e2e57a1fb97e847a45cf620cb9ed82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c55f2cbb7253532ff1400442107ea396') in 0.078806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PlanetaryDefence/Font/Font Licence.txt
+  artifactKey: Guid(7e7897e738ed8874bbc96cc2b54038f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Font/Font Licence.txt using Guid(7e7897e738ed8874bbc96cc2b54038f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1f8f462341f1ea6c7aa38dd631eaccc') in 0.031996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PlanetaryDefence/UI/FROOT title.png
+  artifactKey: Guid(382b258de72d4f74f8eeca8386049a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/UI/FROOT title.png using Guid(382b258de72d4f74f8eeca8386049a23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9c928866a292b5b3341286dffe30144') in 0.026831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlanetaryDefence/Sprites/Shield.png
+  artifactKey: Guid(e8245a1b548baaa4cb7184672f85c667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Sprites/Shield.png using Guid(e8245a1b548baaa4cb7184672f85c667) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '691638bddca123a92ca3fda5b92641bf') in 0.043604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/DepthOfField/DepthOfField.cs
+  artifactKey: Guid(8a338d679868f45439ea43c7ae035e36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/DepthOfField/DepthOfField.cs using Guid(8a338d679868f45439ea43c7ae035e36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fda3fee48e389ce110d29a44f8e6b0f') in 0.014254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlanetaryDefence/PSD Files/Shield.psd
+  artifactKey: Guid(555130f52b8b33540991887567eb9c23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/PSD Files/Shield.psd using Guid(555130f52b8b33540991887567eb9c23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a732f48888691ec88ac92d6561c8fd4') in 0.048933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetaryDefence/Scripts/PickupSpawner.cs
+  artifactKey: Guid(23e735383ba0f62469360137c5a7fe13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Scripts/PickupSpawner.cs using Guid(23e735383ba0f62469360137c5a7fe13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef6e69079d3b66156e566ba6fe780c56') in 0.014216 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
   path: Assets/PlanetaryDefence/UI/w start.png
-  artifactKey: Guid(bfb0b9e60c0af1c44ac967763486a6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlanetaryDefence/UI/w start.png using Guid(bfb0b9e60c0af1c44ac967763486a6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d365d5dda60e48bd1d5c98d15fb6cf4') in 0.019262 seconds 
+  artifactKey: Guid(bfb0b9e60c0af1c44ac967763486a6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/UI/w start.png using Guid(bfb0b9e60c0af1c44ac967763486a6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78c27d8d9a907afadf7b7e3498bafa5d') in 0.034138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PlanetaryDefence/PSD Files/Planet.psd
+  artifactKey: Guid(9258cf4a6f0a69148b9e169f5d381324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/PSD Files/Planet.psd using Guid(9258cf4a6f0a69148b9e169f5d381324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10949fc5c78dfbb642a44804c2c4752e') in 0.033929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/Common/Editor/FieldFinder.cs
+  artifactKey: Guid(39e54cb37a3a81a40b248f1cc25c4619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/Common/Editor/FieldFinder.cs using Guid(39e54cb37a3a81a40b248f1cc25c4619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '039c9955a31652616b0c7dd7d38718a6') in 0.014112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/Bloom/Helpers/LensDirt00.png
+  artifactKey: Guid(69e847bbff1cf5449a4ee0bbd045dbc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/Bloom/Helpers/LensDirt00.png using Guid(69e847bbff1cf5449a4ee0bbd045dbc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad99dc2ca6b9fa09c713b4a1a0abed86') in 0.031139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/Bloom/Resources/Bloom.cginc
+  artifactKey: Guid(386a80fc77a074d2ca8e6f097dd68ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/Bloom/Resources/Bloom.cginc using Guid(386a80fc77a074d2ca8e6f097dd68ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a404c05c7f7d320932f02e8aba53d4a') in 0.019460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/DepthOfField/Helpers/SphereShape.psd
+  artifactKey: Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/DepthOfField/Helpers/SphereShape.psd using Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e138378730bcac556c7b2a2cfd935088') in 0.026852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/Bloom/Resources/Bloom.shader
+  artifactKey: Guid(e45d4f28262b04d10a075856ab5fdb5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/Bloom/Resources/Bloom.shader using Guid(e45d4f28262b04d10a075856ab5fdb5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '025532860c89ffacf1efa5173e2b21e2') in 0.037373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlanetaryDefence/PSD Files/RocketShadow.psd
+  artifactKey: Guid(a90f29687a532cc4ebb890bdaa8004ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/PSD Files/RocketShadow.psd using Guid(a90f29687a532cc4ebb890bdaa8004ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee841eb286bfad87e3e8c17730ecdec5') in 0.029789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/TemporalAntiAliasing/TemporalAntiAliasing.cs
+  artifactKey: Guid(6bdfccaf741b3445e8c50a3e1eb59acc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/TemporalAntiAliasing/TemporalAntiAliasing.cs using Guid(6bdfccaf741b3445e8c50a3e1eb59acc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'babfd2d7a269ec417f1f7fb91eafc250') in 0.012464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/Common/RenderTextureUtility.cs
+  artifactKey: Guid(054e694bae00c374a97c2bc495fca66b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/Common/RenderTextureUtility.cs using Guid(054e694bae00c374a97c2bc495fca66b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '846d5193b05c7d5c58acc363e77a790f') in 0.010568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/Bloom/Helpers/LensDirt02.png
+  artifactKey: Guid(a2960ffde020f27409e070d92fb2e00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/Bloom/Helpers/LensDirt02.png using Guid(a2960ffde020f27409e070d92fb2e00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '030411c8dd1a34c6f87c12cd4778a7cf') in 0.074800 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/PlanetaryDefence/UI/d start.png
-  artifactKey: Guid(482f4196fd6bed34782a5fb862f88d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlanetaryDefence/UI/d start.png using Guid(482f4196fd6bed34782a5fb862f88d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0e9fbd9c71dcfd441d12e184ed19bb') in 0.023450 seconds 
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/DepthOfField/Helpers/HexShape.psd
+  artifactKey: Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/DepthOfField/Helpers/HexShape.psd using Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b3d442f05498ef0e31a2bb1c2a84300') in 0.024710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlanetaryDefence/Prefabs/ParticleEffects/EnemyDeathParticle.prefab
+  artifactKey: Guid(9d838c99f2af4294c9a60baeecacc759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Prefabs/ParticleEffects/EnemyDeathParticle.prefab using Guid(9d838c99f2af4294c9a60baeecacc759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41ad137c8b2159daf419a504308c0b55') in 0.089607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PlanetaryDefence/Sprites/TurretPickup.png
+  artifactKey: Guid(ccf5bd126a20a4947b358c1d92881205) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Sprites/TurretPickup.png using Guid(ccf5bd126a20a4947b358c1d92881205) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fe15f972678a7ac234a55edd1f4b7d9') in 0.022932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PlanetaryDefence/Prefabs/ParticleEffects/PlanetDeathParticle.prefab
+  artifactKey: Guid(35ffd295c80325c4da62b88495a64065) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Prefabs/ParticleEffects/PlanetDeathParticle.prefab using Guid(35ffd295c80325c4da62b88495a64065) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '627aa495340f6f6e7f7f2256411cb55a') in 0.076653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/ScreenSpaceReflection/Resources/ScreenSpaceRaytrace.cginc
+  artifactKey: Guid(6f70a4658ebf5f947abc302c6b49a6ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/ScreenSpaceReflection/Resources/ScreenSpaceRaytrace.cginc using Guid(6f70a4658ebf5f947abc302c6b49a6ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '271feb40114c8d4089c0c5afafa33918') in 0.013940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/ScreenSpaceReflection/Editor/ScreenSpaceReflectionEditor.cs
+  artifactKey: Guid(eb0236f80884a1f4793c96b4d2da5c68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/ScreenSpaceReflection/Editor/ScreenSpaceReflectionEditor.cs using Guid(eb0236f80884a1f4793c96b4d2da5c68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc50e66920467bdf40c7f391f436d0d7') in 0.010569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/TemporalAntiAliasing/Editor/TemporalAntiAliasingEditor.cs
+  artifactKey: Guid(bd4dfc4e9eaf24ddbbf1b9a9e3a82bd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/TemporalAntiAliasing/Editor/TemporalAntiAliasingEditor.cs using Guid(bd4dfc4e9eaf24ddbbf1b9a9e3a82bd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f57c5350cdb96849b2e53aba1815069') in 0.014668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/MotionBlur/Resources/FrameBlending.shader
+  artifactKey: Guid(83da3aecb8b462f498946f5198cbd58e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/MotionBlur/Resources/FrameBlending.shader using Guid(83da3aecb8b462f498946f5198cbd58e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8514a26e15c8dd53fc90f16b4ca4435') in 0.018484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/AntiAliasing/FXAA/Resources/FXAA3.cginc
+  artifactKey: Guid(b44d2ca11a7157e4db9f1e02f5249f95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/AntiAliasing/FXAA/Resources/FXAA3.cginc using Guid(b44d2ca11a7157e4db9f1e02f5249f95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cb7e39cc52cae8d497fdb29d0afade3') in 0.010001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/TonemappingColorGrading/Helpers/NeutralLUT32.png
+  artifactKey: Guid(6ac6980bae76ac241971e97191b6c30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/TonemappingColorGrading/Helpers/NeutralLUT32.png using Guid(6ac6980bae76ac241971e97191b6c30c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b849b870ca3c5af38edaeba1fa56a0f') in 0.023651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/TonemappingColorGrading/Resources/HistogramRender.shader
+  artifactKey: Guid(9a8e838691462194482a43a02e424876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/TonemappingColorGrading/Resources/HistogramRender.shader using Guid(9a8e838691462194482a43a02e424876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75d574603f231d4f0e4b85a79717948e') in 0.015356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Resources/Common.cginc
+  artifactKey: Guid(d868ad1453d0bd64085cf12615e679ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Resources/Common.cginc using Guid(d868ad1453d0bd64085cf12615e679ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '647df3001e0b2c1dd3a7433a6e7ee782') in 0.011807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlanetaryDefence/UI/d about.png
+  artifactKey: Guid(d37a799c990d28641966cb3bb796fc72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/UI/d about.png using Guid(d37a799c990d28641966cb3bb796fc72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2709c6774a521d3d29bca5577282280a') in 0.021378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Helpers/PropertyObserver.cs
+  artifactKey: Guid(1d9548d9a173a40e4b758ecf6e4fed49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Helpers/PropertyObserver.cs using Guid(1d9548d9a173a40e4b758ecf6e4fed49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f63335a762aa00da2ac8a2ad79a3a737') in 0.011115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetaryDefence/Prefabs/RocketBullet.prefab
+  artifactKey: Guid(6087596fa7ccfdc4eb4425aa00936eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Prefabs/RocketBullet.prefab using Guid(6087596fa7ccfdc4eb4425aa00936eea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ee2eb815e7d1dc40edfc3d394d5c1f2') in 0.042478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PlanetaryDefence/PSD Files/Enemy3.psd
+  artifactKey: Guid(3daf98713bd6be04b9e4cdac0c8c7d1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/PSD Files/Enemy3.psd using Guid(3daf98713bd6be04b9e4cdac0c8c7d1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eac18a6255c3c303e518021855556c21') in 0.037339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PlanetaryDefence/PSD Files/PlanetShield.psd
+  artifactKey: Guid(5f8d1c30ea65a0c40b0b67cc08e021a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/PSD Files/PlanetShield.psd using Guid(5f8d1c30ea65a0c40b0b67cc08e021a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd39dc0efe6e5bee20de43c9728afd08') in 0.036262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PlanetaryDefence/Scripts/Game.cs
+  artifactKey: Guid(b44ef7d8a94226747849da7c81206c19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Scripts/Game.cs using Guid(b44ef7d8a94226747849da7c81206c19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12233570f7576da127788bf19b180442') in 0.014580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/Common/MinAttribute.cs
+  artifactKey: Guid(b07292ae638766047a6751da7552e566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/Common/MinAttribute.cs using Guid(b07292ae638766047a6751da7552e566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61e1772c61728f1f887eb4fc9730f299') in 0.012923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PlanetaryDefence/Prefabs/Pickups/TurretPickup.prefab
+  artifactKey: Guid(09ac98329c21e7d40b6668d2eab9671a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Prefabs/Pickups/TurretPickup.prefab using Guid(09ac98329c21e7d40b6668d2eab9671a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6f9a1b67e33926cb74700c1c3f14513') in 0.022856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetaryDefence/Sprites/RocketShadow.png
+  artifactKey: Guid(61dcfbe59d06a074ca1667d066d3fd5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Sprites/RocketShadow.png using Guid(61dcfbe59d06a074ca1667d066d3fd5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85e2559c9c88cba947cc4d55c843df3a') in 0.026187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PlanetaryDefence/Prefabs/Pickups/SpeedFirePickup.prefab
+  artifactKey: Guid(1bdc8c7fd7ebd5141b58695dff2f36ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Prefabs/Pickups/SpeedFirePickup.prefab using Guid(1bdc8c7fd7ebd5141b58695dff2f36ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd0742a427f9e956f61495172a82e4e5') in 0.022665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/AntiAliasing/SMAA/Resources/SMAA.cginc
+  artifactKey: Guid(74597699f47d8ae458dca68f79f1b21f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/AntiAliasing/SMAA/Resources/SMAA.cginc using Guid(74597699f47d8ae458dca68f79f1b21f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bafd58b6c581349b08d6b41326b9be71') in 0.013650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/Bloom/Bloom.cs
+  artifactKey: Guid(32187365ced0c42219cde2b57c99b323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/Bloom/Bloom.cs using Guid(32187365ced0c42219cde2b57c99b323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e48083e76f32ce12971f58cbbaaf397') in 0.014508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetaryDefence/PSD Files/Enemy2.psd
+  artifactKey: Guid(6746bc09f4ec43846adc19f5080e9a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/PSD Files/Enemy2.psd using Guid(6746bc09f4ec43846adc19f5080e9a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4890a67cc7ef70f98a3bbdc681113eb7') in 0.032983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/TemporalAntiAliasing/Resources/TemporalAntiAliasing.shader
+  artifactKey: Guid(0679881eadedf4ddbaf8f0002c674eab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/TemporalAntiAliasing/Resources/TemporalAntiAliasing.shader using Guid(0679881eadedf4ddbaf8f0002c674eab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2b2160e208529a51bfcb09b92f0ec20') in 0.017091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlanetaryDefence/Sprites/Enemy1.png
+  artifactKey: Guid(b03249329027e2f4183896b6f162dc18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Sprites/Enemy1.png using Guid(b03249329027e2f4183896b6f162dc18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e80e78cefdaffc59648603eed5deed15') in 0.026512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/DepthOfField/Helpers/RoundedHexShape.tif
+  artifactKey: Guid(9014ef007a9a1d545b0fba20daa0fc7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/DepthOfField/Helpers/RoundedHexShape.tif using Guid(9014ef007a9a1d545b0fba20daa0fc7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '682f0a9f06a0ec7e368cf74a02d445a3') in 0.050190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Resources/AmbientOcclusion.shader
+  artifactKey: Guid(65e203e5acda447acbf9dc1ef78c4a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Resources/AmbientOcclusion.shader using Guid(65e203e5acda447acbf9dc1ef78c4a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4022d66948513eafc943abbbdd31d2ad') in 0.020735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PlanetaryDefence/UI/d exit.png
+  artifactKey: Guid(086f06bfe881d194bbc5cf2fbc737ccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/UI/d exit.png using Guid(086f06bfe881d194bbc5cf2fbc737ccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4915b0f46edba53d12ed0b9a85f6758') in 0.027484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Resources/AmbientOcclusion.cginc
+  artifactKey: Guid(7bbc8f354c22e447dbd9deb502530d91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Resources/AmbientOcclusion.cginc using Guid(7bbc8f354c22e447dbd9deb502530d91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '044583bf8f5ead2c4e5b9c2cd48ee8e9') in 0.010613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PlanetaryDefence/Audio/EnemyDeath.wav
+  artifactKey: Guid(145fe89d4318c2a43a7a47a4b6d09151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Audio/EnemyDeath.wav using Guid(145fe89d4318c2a43a7a47a4b6d09151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6736ff78eab55bcb9587e1dd90715c47') in 0.049471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlanetaryDefence/Scripts/moveController.cs
+  artifactKey: Guid(72262efd237294f41a5c33562485a092) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Scripts/moveController.cs using Guid(72262efd237294f41a5c33562485a092) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '135cab7912ca93feddde8c6355b6412f') in 0.011439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlanetaryDefence/Prefabs/Pickups/PlanetShieldPickup.prefab
+  artifactKey: Guid(16ac2844d65a0be4bae59e43077309c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Prefabs/Pickups/PlanetShieldPickup.prefab using Guid(16ac2844d65a0be4bae59e43077309c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b40db6a4152d3aa2bf21c203f449fe44') in 0.020886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/TonemappingColorGrading/Editor/TonemappingColorGradingEditor.cs
+  artifactKey: Guid(64bb64b30a05a0d4b8afe58a356fc8fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/TonemappingColorGrading/Editor/TonemappingColorGradingEditor.cs using Guid(64bb64b30a05a0d4b8afe58a356fc8fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3a21ca8d294d7672c6c2d1d662077d4') in 0.013011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/Common/Editor/MinDrawer.cs
+  artifactKey: Guid(9c615a85f13c6764fa4496d1d7f75f52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/Common/Editor/MinDrawer.cs using Guid(9c615a85f13c6764fa4496d1d7f75f52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48237461d01cf96e1bffb8f7428fef8d') in 0.015159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PlanetaryDefence/PSD Files/Enemy1.psd
+  artifactKey: Guid(0a906c62b60411749a14acef6eed32ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/PSD Files/Enemy1.psd using Guid(0a906c62b60411749a14acef6eed32ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36a0b61b82b6e27dd6a56bd3874a91e9') in 0.031136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/TonemappingColorGrading/Resources/HistogramCompute.compute
+  artifactKey: Guid(5ee4b74fa28a3e74e89423dd49705fc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/TonemappingColorGrading/Resources/HistogramCompute.compute using Guid(5ee4b74fa28a3e74e89423dd49705fc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e11f5c8adf90108d61dd25e9f835535') in 0.021271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/LensAberrations/Resources/LensAberrations.shader
+  artifactKey: Guid(136ab50fe2b9ad64d9c22adc3668abb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/LensAberrations/Resources/LensAberrations.shader using Guid(136ab50fe2b9ad64d9c22adc3668abb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90ba840e8f358588ebb208f54e03d720') in 0.020126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Editor/AmbientOcclusionEditor.cs
+  artifactKey: Guid(05ea8e27ed8e74e67a9220b4f4119e51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Editor/AmbientOcclusionEditor.cs using Guid(05ea8e27ed8e74e67a9220b4f4119e51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7a21d3ad8aeaa30fd931c7e2586735d') in 0.012020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlanetaryDefence/UI/w setting.png
+  artifactKey: Guid(85fdba223af5a0a46bd1913f96bcf053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/UI/w setting.png using Guid(85fdba223af5a0a46bd1913f96bcf053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ba5e4cef07c9d911d2b6c33f9e2d8bc') in 0.027536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetaryDefence/Prefabs/Enemies/Enemy3.prefab
+  artifactKey: Guid(16b9dada555f76245a7a2cb7444995a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Prefabs/Enemies/Enemy3.prefab using Guid(16b9dada555f76245a7a2cb7444995a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab24640dad3b5ae65bca00fbf9195524') in 0.030804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/PlanetaryDefence/Scripts/Utility/UniGifImageAspectController.cs
+  artifactKey: Guid(10b5e2a9913274d43a1e678b6ac98f7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Scripts/Utility/UniGifImageAspectController.cs using Guid(10b5e2a9913274d43a1e678b6ac98f7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a014a93e180c9343be0ab4b98962c88a') in 0.018610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Resources/Composition.cginc
+  artifactKey: Guid(4c528f08662f4484d91bb987fd1fffae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/AmbientOcclusion/Resources/Composition.cginc using Guid(4c528f08662f4484d91bb987fd1fffae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd0c8616bdca0e7b00298a04332de122') in 0.015716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/AntiAliasing/FXAA/Editor/FXAAEditor.cs
+  artifactKey: Guid(60bfb637c85e3e04ea76962349fee327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/AntiAliasing/FXAA/Editor/FXAAEditor.cs using Guid(60bfb637c85e3e04ea76962349fee327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b52655692282752025b79034fac5ba6') in 0.013654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/DepthOfField/Editor/DepthOfFieldEditor.cs
+  artifactKey: Guid(3eb07ef5681934662814cc768bcdb60c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/DepthOfField/Editor/DepthOfFieldEditor.cs using Guid(3eb07ef5681934662814cc768bcdb60c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5eebeb73cf5b2d2eff3a8f1c2348a542') in 0.020702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PlanetaryDefence/Scripts/CameraController.cs
+  artifactKey: Guid(8f3e022b2e80a364381ca1c0f1a1a2ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Scripts/CameraController.cs using Guid(8f3e022b2e80a364381ca1c0f1a1a2ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f9395ca2fb2666413fc594b8e008b66') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/MotionBlur/Editor/FrameBlendingIcon.png
+  artifactKey: Guid(d99d70716ed2e4735ba36a13b42f8e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/MotionBlur/Editor/FrameBlendingIcon.png using Guid(d99d70716ed2e4735ba36a13b42f8e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0480d7ac4374535885912ee6e6e1c4be') in 0.027604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlanetaryDefence/Audio/ButtonHover.wav
+  artifactKey: Guid(09227814b91a9e247b3146356c5b35ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Audio/ButtonHover.wav using Guid(09227814b91a9e247b3146356c5b35ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7312681e227dc04963fb075d62c29112') in 0.058928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlanetaryDefence/Standard Assets/Effects/AntiAliasing/SMAA/SMAA.cs
+  artifactKey: Guid(9c2502951f8f3e743917c441eba57d1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Standard Assets/Effects/AntiAliasing/SMAA/SMAA.cs using Guid(9c2502951f8f3e743917c441eba57d1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a9365c2ecc7079885e9225dfbe82fd0') in 0.017911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PlanetaryDefence/Video/starting.mp4
+  artifactKey: Guid(10d0eb61477df2547bf007354806c815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Video/starting.mp4 using Guid(10d0eb61477df2547bf007354806c815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '222306c2f60f085af0a7189c09bc5703') in 0.027944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PlanetaryDefence/Sprites/Planet.png
+  artifactKey: Guid(f2e303556f321e44d943b499ce55acb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Sprites/Planet.png using Guid(f2e303556f321e44d943b499ce55acb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27e5967126b5106c3f4678ec5c972a57') in 0.031141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PlanetaryDefence/Prefabs/Enemies/Enemy2.prefab
+  artifactKey: Guid(3648a5151f416834fa9eafb473a9e275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlanetaryDefence/Prefabs/Enemies/Enemy2.prefab using Guid(3648a5151f416834fa9eafb473a9e275) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b539b8b887fc090c89dd5686def8389f') in 0.027487 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 24.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (92.6 KB). Loaded Objects now: 3829.
+Memory consumption went from 66.7 MB to 66.6 MB.
+Total: 5.260700 ms (FindLiveObjects: 0.534100 ms CreateObjectMapping: 0.117300 ms MarkObjects: 4.535400 ms  DeleteObjects: 0.072600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

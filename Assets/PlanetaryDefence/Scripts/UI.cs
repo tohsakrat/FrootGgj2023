@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class UI : MonoBehaviour 
 {
 	public GameObject menuUI;
 	public GameObject gameUI;
 	public GameObject gameOverUI;
+
+	//video
+	public GameObject video;
+	double video_time, currentTime;
 
 	//Game UI
 	public Text timeElapsed;
@@ -17,6 +22,8 @@ public class UI : MonoBehaviour
 	public Text goDefendTime;
 	public Text goHighscoreTime;
 
+	bool onStart;
+
 	public static UI ui;
 
 	void Awake () { ui = this; }
@@ -25,7 +32,8 @@ public class UI : MonoBehaviour
 	{
 		planetHealthBar.maxValue = Planet.p.health;
 		planetHealthBar.value = Planet.p.health;
-	}
+        video_time = video.GetComponent<VideoPlayer>().clip.length;
+    }
 
 	void Update ()
 	{
@@ -33,13 +41,28 @@ public class UI : MonoBehaviour
 		{
 			SetTimeElapsed();
 		}
+
+        if (onStart)
+        {
+			currentTime += Time.deltaTime;
+			if (currentTime >= video_time)
+			{
+				//event after video
+				CameraController.c.TransitionToGameView();
+				video.SetActive(false);
+			}
+		}
 	}
 
 	//On the menu screen, when the "Play" button gets pressed.
 	public void OnPlayButton ()
-	{
-		CameraController.c.TransitionToGameView();
+	{	
+		onStart = true;
 		menuUI.SetActive(false);
+		video.SetActive(true);
+
+		//CameraController.c.TransitionToGameView();
+		//menuUI.SetActive(false);
 	}
 
 	//On the menu or game over screen, when the "Quit" button gets pressed.
